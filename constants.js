@@ -1,13 +1,13 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "Rian Silva",
+  title: "Portfolio |Rian Silva",
   description:
-    "Shubh Porwal is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
+    "Rian Silva is a passionate BackEnd Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubhporwal24",
+  twitterHandle: "@oDevRian",
   keywords: [
-    "Shubh Porwal",
-    "Frontend Engineer",
+    "Rian Silva",
+    "BackEnd Engineer",
     "React Native Developer",
     "Software Engineer",
     "Portfolio",
@@ -44,7 +44,7 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
+  "A pragmatic BackEnd Developer",
   "I build things for the web",
   "I create aesthetic and modern apps",
 ];
@@ -52,23 +52,23 @@ export const TYPED_STRINGS = [
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: realrian@outlook.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/rian-dev/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/Riandev1",
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
+    url: "https://www.instagram.com/_rian.code/",
   },
   {
-    name: "twitter",
-    url: "https://x.com/shubhporwal24",
+    name: "X",
+    url: "https://x.com/oDevRian",
   },
 ];
 
@@ -78,7 +78,7 @@ export const SKILLS = {
     "css",
     "javascript",
     "typescript",
-    "sass",
+    "Python",
     "nodejs",
     "webpack",
     "vite",
@@ -139,57 +139,12 @@ export const PROJECTS = [
   },
 ];
 
-// export const WORK = [
-//   {
-//     id: 1,
-//     company: "Dukaan",
-//     title: "Frontend Developer",
-//     location: "Bangalore, Karnataka",
-//     range: "December - Current",
-//     responsibilities: [
-//       "Led creation of a captivating cross-platform e-commerce solution.",
-//       "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
-//       "The app boasts a DAU base of 32k and an extensive MAU count of 180k.",
-//     ],
-//     url: "https://mydukaan.io/",
-//     video: "/work/dukaan.mp4",
-//   },
-//   {
-//     id: 2,
-//     company: "Aviate",
-//     title: "Frontend Developer Intern",
-//     location: "Goa",
-//     range: "May - October 2022",
-//     responsibilities: [
-//       "Built their flagship product Q-Rate, a voice-based applicant screening platform.",
-//       "Developed pixel-perfect responsive web applications achieving daily traffic of 1000-2000 users.",
-//       "Successfully rolled out an error-logging and bug reporting system that cut user-reported bugs by 30%.",
-//     ],
-//     url: "https://www.aviate.jobs/",
-//     video: "/work/aviate.mp4",
-//   },
-//   {
-//     id: 3,
-//     company: "Spacenos",
-//     title: "Web Developer Intern",
-//     location: "Bangalore, Karnataka",
-//     range: "September - December 2021",
-//     responsibilities: [
-//       "Led the Full Stack revamp on the Admin Portal.",
-//       "Developed app integration with REST APIs, Google Maps, User Auth, Stripe and other libraries.",
-//       "Implemented CRUD features for all the services and providers.",
-//     ],
-//     url: "https://spacenos.com/",
-//     video: "/work/spacenos.mp4",
-//   },
-// ];
-
 export const WORK_CONTENTS = {
   DUKAAN: [
     {
-      title: "Dukaan",
+      title: "Peças Automotivas",
       description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+        "Development of an e-commerce with cart and payments, improving thesales conversion.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Revolutionizing commerce, one click at a time
@@ -202,7 +157,7 @@ export const WORK_CONTENTS = {
         "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
+          Júnior BackEnd Engineer
         </div>
       ),
     },
@@ -212,7 +167,7 @@ export const WORK_CONTENTS = {
         "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
+         Backend Engineer
         </div>
       ),
     },
@@ -222,7 +177,7 @@ export const WORK_CONTENTS = {
         "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
+         Backend Engineer Intern
         </div>
       ),
     },
@@ -244,7 +199,7 @@ export const WORK_CONTENTS = {
         "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Developer Intern
+          Backend Developer Intern
         </div>
       ),
     },
