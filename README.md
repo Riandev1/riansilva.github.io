@@ -117,4 +117,4 @@ Este projeto está sob a licença MIT. Veja o arquivo ([LICENSE](https://mit-lic
 
 ---
 
-⭐ Desenvolvido por [Rian Silva](https://github.com/Riandev1)
+⭐ Desenvolvido por [Rian Silva](https://www.linkedin.com/in/rian-dev/)
