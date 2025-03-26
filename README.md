@@ -9,7 +9,7 @@
 
 ## 🌟 Sobre o Projeto
 
-Portfolio profissional desenvolvido com tecnologias modernas, apresentando meus projetos, habilidades e experiências como Desenvolvedor Back-end. O site conta com animações suaves, design responsivo e interface moderna.
+Portfolio profissional desenvolvido com tecnologias modernas, apresentando meus projetos, habilidades e experiências como Desenvolvedor Full-Stack. O site conta com animações suaves, design responsivo e interface moderna.
 
 ## 🚀 Tecnologias Utilizadas
 
