@@ -101,48 +101,39 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "Airbnb",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
+    name: "Football Table",
+    image: "/projects/FootballTable.webp",
+    blurImage: "/projects/blur/FootballTable-blur.webp",
+    description: "Uma Api com endpoints que mostram a tabela em ordem de pontos, vitórias e saldo de gols.⚽",
+    gradient: ["#2E8B57", "#3CB371"],
+    url: "https://github.com/Riandev1/tfc-project",
+    tech: ["html", "css", "javascript", "nodejs", "mongodb",],
   },
   {
-    name: "Medium",
-    image: "/projects/medium.webp",
-    blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
+    name: "Trybe Wallet",
+    image: "/projects/TrybeWallet.webp",
+    blurImage: "/projects/TrybeWallet.webp",
+    description: "Uma aplicação que simula uma carteira de controle de gastos.💸",
+    gradient: ["#006400", "#3CB371"],
+    url: "https://github.com/Riandev1/Trybe-Wallet",
+    tech: ["html", "css", "javascript", "react"],
   },
   {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
+    name: "Trybe Tunes",
+    image: "/projects/TrybeTunes.webp",
+    blurImage: "/projects/TrybeTunes.webp",
     description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
-    gradient: ["#000066", "#6699FF"],
-    url: "https://shubh73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
+      "Uma aplicação capaz de reproduzir músicas de diversas bandas e artistas.🎵",
+    gradient: ["#8A2BE2", "#6699FF"],
+    url: "https://github.com/Riandev1/project-tunes",
+    tech: ["html", "css", "javascript", "react", "chakra-ui", "redux"],
   },
-  {
-    name: "Tesla",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/shubh73/tesla",
-    tech: ["react"],
-  },
-];
+]; 
 
 export const WORK_CONTENTS = {
-  DUKAAN: [
+  Automotive: [
     {
-      title: "Peças Automotivas",
+      title: "Automotive Parts E-commerce",
       description:
         "Development of an e-commerce with cart and payments, improving thesales conversion.",
       content: (
@@ -150,11 +141,11 @@ export const WORK_CONTENTS = {
           Revolutionizing commerce, one click at a time
         </div>
       ),
-    },
+    }, 
     {
       title: "Transformation",
       description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
+        "Since 2023, the FLV Automotive Cars Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Flv largest and most impactful migration.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Júnior BackEnd Engineer
@@ -164,7 +155,7 @@ export const WORK_CONTENTS = {
     {
       title: "Evolution",
       description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
+        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Flv App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
          Backend Engineer
@@ -182,11 +173,11 @@ export const WORK_CONTENTS = {
       ),
     },
   ],
-  AVIATE: [
+  NewRiver: [
     {
-      title: "Aviate",
+      title: "NewRiver",
       description:
-        "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
+        "It is a FiveM company that specializes in offering high-performance VPS sales and reliable hosting services, tailored to meet the needs of gaming communities and developers.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Finding the right job isn&apos;t fate, it&apos;s navigation
@@ -196,7 +187,7 @@ export const WORK_CONTENTS = {
     {
       title: "Innovation",
       description:
-        "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
+        "I led the optimization of their website, implementing improvements to enhance performance and user experience. Additionally, I took initiatives to resolve various bugs that customers were facing, resulting in a significant decrease in complaints and an increase in user engagement.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Backend Developer Intern
@@ -204,11 +195,11 @@ export const WORK_CONTENTS = {
       ),
     },
   ],
-  SPACENOS: [
+  MrCat: [
     {
-      title: "Spacenos",
+      title: "MrCat",
       description:
-        "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+        "Mr. Cat is a dynamic store dedicated to offering stylish and high-quality footwear and accessories, blending fashion with comfort. With a focus on innovation and customer satisfaction, they strive to create products that make a statement and elevate everyday wear.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           We build apps that solve problems for the next billion people
@@ -218,7 +209,7 @@ export const WORK_CONTENTS = {
     {
       title: "Trailblazing",
       description:
-        "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
+        "I worked in the inventory, where I was responsible for managing deliveries on the store's website, ensuring accuracy and efficiency in the process. Additionally, I was responsible for fixing issues such as bugs and system errors, and I also implemented improvements, such as adjustments to the order flow and optimizations in the delivery process, ensuring a smoother experience for customers.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Web Developer Intern
