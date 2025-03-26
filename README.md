@@ -3,7 +3,7 @@
 
 ## Demonstração
 
-![preview](![preview](https://github.com/user-attachments/assets/6700e5cb-5821-48a6-a9eb-88691e877696)
+![preview](https://github.com/user-attachments/assets/6700e5cb-5821-48a6-a9eb-88691e877696)
 
 
 
