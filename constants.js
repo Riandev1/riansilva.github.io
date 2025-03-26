@@ -148,7 +148,7 @@ export const WORK_CONTENTS = {
         "Since 2023, the FLV Automotive Cars Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Flv largest and most impactful migration.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Júnior BackEnd Engineer
+          Júnior FullStack Engineer
         </div>
       ),
     },

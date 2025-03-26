@@ -59,7 +59,7 @@ const About1 = ({ clientHeight }) => {
             I&apos;am a developer passionate about what I do and looking to evolve{" "}
           </span>
           <span className="about-2 leading-tight">
-          I take responsibility for building a robust and scalable backend architecture, ensuring high performance and availability to support a solid user experience.{" "}
+          I take responsibility for building a robust and scalable fullstack architecture, ensuring high performance and availability to support a solid user experience.{" "}
           </span>
         </h1>
       </div>
