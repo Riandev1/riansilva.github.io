@@ -2,12 +2,12 @@ export const METADATA = {
   author: "Rian Silva",
   title: "Portfolio |Rian Silva",
   description:
-    "Rian Silva is a passionate BackEnd Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
+    "Rian Silva is a passionate FullStack Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   siteUrl: "https://www.shubhporwal.me/",
   twitterHandle: "@oDevRian",
   keywords: [
     "Rian Silva",
-    "BackEnd Engineer",
+    "FullStack Engineer",
     "React Native Developer",
     "Software Engineer",
     "Portfolio",
@@ -44,7 +44,7 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic BackEnd Developer",
+  "A pragmatic FullStack Developer",
   "I build things for the web",
   "I create aesthetic and modern apps",
 ];
