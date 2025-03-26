@@ -78,7 +78,7 @@ export const SKILLS = {
     "css",
     "javascript",
     "typescript",
-    "Python",
+    "python",
     "nodejs",
     "webpack",
     "vite",
