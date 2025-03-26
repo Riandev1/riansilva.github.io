@@ -3,7 +3,8 @@
 
 ## Demonstração
 
-![preview](https://github.com/user-attachments/assets/ed130a4d-85cc-4e85-8af3-2c790916061f)
+![preview](![preview](https://github.com/user-attachments/assets/6700e5cb-5821-48a6-a9eb-88691e877696)
+
 
 
 ## 🌟 Sobre o Projeto
