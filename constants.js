@@ -14,9 +14,6 @@ export const METADATA = {
     "Devfolio",
     "Folio",
   ].join(", "),
-  image: "https://riansilva-github-io.vercel.app/preview.jpg",
-  imageWidth: "1200",
-  imageHeight: "630",
   language: "English",
   themeColor: "#000000",
 };
