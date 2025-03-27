@@ -20,17 +20,17 @@ const Meta = () => (
     <meta property="og:description" content={METADATA.description} />
     <meta property="og:url" content={METADATA.siteUrl} />
     <meta property="og:site_name" content={METADATA.title} />
-    <meta property="og:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
-    <meta property="og:image:width" content="1" />
-    <meta property="og:image:height" content="1" />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
     {/* Twitter */}
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={METADATA.title} />
     <meta name="twitter:description" content={METADATA.description} />
     <meta name="twitter:site" content={METADATA.twitterHandle} />
     <meta name="twitter:creator" content={METADATA.twitterHandle} />
-    <meta name="twitter:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+    <meta name="twitter:image" content="/og-image.svg" />
 
     {/* Explicitly block image previews */}
     <meta name="thumbnail" content="none" />
