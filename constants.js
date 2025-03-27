@@ -1,9 +1,9 @@
 export const METADATA = {
   author: "Rian Silva",
-  title: "Portfolio |Rian Silva",
+  title: "Portfolio | Rian Silva",
   description:
     "Rian Silva is a passionate FullStack Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  siteUrl: "https://www.shubhporwal.me/",
+  siteUrl: "https://riansilva-github-io.vercel.app/",
   twitterHandle: "@oDevRian",
   keywords: [
     "Rian Silva",
@@ -14,8 +14,7 @@ export const METADATA = {
     "Devfolio",
     "Folio",
   ].join(", "),
-  image:
-    "",
+  image: "/og-image.png",
   language: "English",
   themeColor: "#000000",
 };
