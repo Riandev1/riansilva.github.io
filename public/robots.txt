@@ -1,0 +1,10 @@
+User-agent: LinkedInBot
+Disallow: /projects/
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.gif$
+Disallow: /*.png$
+Disallow: /*.webp$
+
+User-agent: *
+Allow: / 
