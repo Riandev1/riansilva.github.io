@@ -20,6 +20,9 @@ const Meta = () => (
     <meta property="og:description" content={METADATA.description} />
     <meta property="og:url" content={METADATA.siteUrl} />
     <meta property="og:site_name" content={METADATA.title} />
+    <meta property="og:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+    <meta property="og:image:width" content="1" />
+    <meta property="og:image:height" content="1" />
 
     {/* Twitter */}
     <meta name="twitter:card" content="summary" />
@@ -27,6 +30,11 @@ const Meta = () => (
     <meta name="twitter:description" content={METADATA.description} />
     <meta name="twitter:site" content={METADATA.twitterHandle} />
     <meta name="twitter:creator" content={METADATA.twitterHandle} />
+    <meta name="twitter:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+
+    {/* Explicitly block image previews */}
+    <meta name="thumbnail" content="none" />
+    <meta name="robots" content="noimageindex" />
 
     <link
       rel="apple-touch-icon"
