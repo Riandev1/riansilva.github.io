@@ -20,12 +20,24 @@ const Menu = () => {
           <ul className="list-none py-4 px-0 m-0 block max-h-screen">
             {MENULINKS.map((el) => (
               <li key={el.name} className="p-0 m-6 text-2xl block">
-                <a
-                  className="link relative inline font-mono font-bold text-5xl duration-300 hover:no-underline"
-                  href={`#${el.ref}`}
-                >
-                  {el.name}
-                </a>
+                {el.name === "Resume" ? (
+                  <a
+                    className="link relative inline font-mono font-bold text-5xl duration-300 hover:no-underline"
+                    href="/projects/MeuCv.pdf"
+                    download="RianSilva_CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {el.name}
+                  </a>
+                ) : (
+                  <a
+                    className="link relative inline font-mono font-bold text-5xl duration-300 hover:no-underline"
+                    href={`#${el.ref}`}
+                  >
+                    {el.name}
+                  </a>
+                )}
               </li>
             ))}
           </ul>

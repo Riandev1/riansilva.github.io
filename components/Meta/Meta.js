@@ -19,6 +19,8 @@ const Meta = () => (
     <meta property="og:title" content={METADATA.title} />
     <meta property="og:description" content={METADATA.description} />
     <meta property="og:image" content={METADATA.image} />
+    <meta property="og:image:width" content={METADATA.imageWidth} />
+    <meta property="og:image:height" content={METADATA.imageHeight} />
     <meta property="og:url" content={METADATA.siteUrl} />
     <meta property="og:site_name" content={METADATA.title} />
 
@@ -30,6 +32,8 @@ const Meta = () => (
     <meta name="twitter:creator" content={METADATA.twitterHandle} />
     <meta property="twitter:url" content={METADATA.siteUrl} />
     <meta property="twitter:image" content={METADATA.image} />
+    <meta name="twitter:image:width" content={METADATA.imageWidth} />
+    <meta name="twitter:image:height" content={METADATA.imageHeight} />
 
     <link
       rel="apple-touch-icon"

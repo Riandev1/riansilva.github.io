@@ -3,7 +3,7 @@ export const METADATA = {
   title: "Portfolio | Rian Silva",
   description:
     "Rian Silva is a passionate FullStack Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  siteUrl: "https://riansilva-github-io.vercel.app/",
+  siteUrl: "https://riansilva-github-io.vercel.app",
   twitterHandle: "@oDevRian",
   keywords: [
     "Rian Silva",
@@ -14,7 +14,9 @@ export const METADATA = {
     "Devfolio",
     "Folio",
   ].join(", "),
-  image: "/og-image.png",
+  image: "https://riansilva-github-io.vercel.app/preview.jpg",
+  imageWidth: "1200",
+  imageHeight: "630",
   language: "English",
   themeColor: "#000000",
 };
@@ -39,6 +41,10 @@ export const MENULINKS = [
   {
     name: "Contact",
     ref: "contact",
+  },
+  {
+    name: "Resume",
+    ref: "projects/MeuCv.pdf",
   },
 ];
 
